@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B33474220054E5000259FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33474120054E5000259FFB /* AppDelegate.swift */; };
+		5B33474420054E5000259FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33474320054E5000259FFB /* ViewController.swift */; };
+		5B33474720054E5000259FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B33474520054E5000259FFB /* Main.storyboard */; };
+		5B33474920054E5000259FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B33474820054E5000259FFB /* Assets.xcassets */; };
+		5B33474C20054E5000259FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B33474A20054E5000259FFB /* LaunchScreen.storyboard */; };
+		5B33475720054E5000259FFB /* CrypierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33475620054E5000259FFB /* CrypierTests.swift */; };
+		5B33476220054E5000259FFB /* CrypierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33476120054E5000259FFB /* CrypierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B33475320054E5000259FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B33473620054E5000259FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B33473D20054E5000259FFB;
+			remoteInfo = Crypier;
+		};
+		5B33475E20054E5000259FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B33473620054E5000259FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B33473D20054E5000259FFB;
+			remoteInfo = Crypier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B33473E20054E5000259FFB /* Crypier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B33474120054E5000259FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B33474320054E5000259FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B33474620054E5000259FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B33474820054E5000259FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B33474B20054E5000259FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B33474D20054E5000259FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B33475220054E5000259FFB /* CrypierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B33475620054E5000259FFB /* CrypierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypierTests.swift; sourceTree = "<group>"; };
+		5B33475820054E5000259FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B33475D20054E5000259FFB /* CrypierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B33476120054E5000259FFB /* CrypierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypierUITests.swift; sourceTree = "<group>"; };
+		5B33476320054E5000259FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B33473B20054E5000259FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33474F20054E5000259FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33475A20054E5000259FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B33473520054E5000259FFB = {
+			isa = PBXGroup;
+			children = (
+				5B33474020054E5000259FFB /* Crypier */,
+				5B33475520054E5000259FFB /* CrypierTests */,
+				5B33476020054E5000259FFB /* CrypierUITests */,
+				5B33473F20054E5000259FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B33473F20054E5000259FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B33473E20054E5000259FFB /* Crypier.app */,
+				5B33475220054E5000259FFB /* CrypierTests.xctest */,
+				5B33475D20054E5000259FFB /* CrypierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B33474020054E5000259FFB /* Crypier */ = {
+			isa = PBXGroup;
+			children = (
+				5B33474120054E5000259FFB /* AppDelegate.swift */,
+				5B33474320054E5000259FFB /* ViewController.swift */,
+				5B33474520054E5000259FFB /* Main.storyboard */,
+				5B33474820054E5000259FFB /* Assets.xcassets */,
+				5B33474A20054E5000259FFB /* LaunchScreen.storyboard */,
+				5B33474D20054E5000259FFB /* Info.plist */,
+			);
+			path = Crypier;
+			sourceTree = "<group>";
+		};
+		5B33475520054E5000259FFB /* CrypierTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B33475620054E5000259FFB /* CrypierTests.swift */,
+				5B33475820054E5000259FFB /* Info.plist */,
+			);
+			path = CrypierTests;
+			sourceTree = "<group>";
+		};
+		5B33476020054E5000259FFB /* CrypierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B33476120054E5000259FFB /* CrypierUITests.swift */,
+				5B33476320054E5000259FFB /* Info.plist */,
+			);
+			path = CrypierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B33473D20054E5000259FFB /* Crypier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B33476620054E5000259FFB /* Build configuration list for PBXNativeTarget "Crypier" */;
+			buildPhases = (
+				5B33473A20054E5000259FFB /* Sources */,
+				5B33473B20054E5000259FFB /* Frameworks */,
+				5B33473C20054E5000259FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypier;
+			productName = Crypier;
+			productReference = 5B33473E20054E5000259FFB /* Crypier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B33475120054E5000259FFB /* CrypierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B33476920054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierTests" */;
+			buildPhases = (
+				5B33474E20054E5000259FFB /* Sources */,
+				5B33474F20054E5000259FFB /* Frameworks */,
+				5B33475020054E5000259FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B33475420054E5000259FFB /* PBXTargetDependency */,
+			);
+			name = CrypierTests;
+			productName = CrypierTests;
+			productReference = 5B33475220054E5000259FFB /* CrypierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B33475C20054E5000259FFB /* CrypierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B33476C20054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierUITests" */;
+			buildPhases = (
+				5B33475920054E5000259FFB /* Sources */,
+				5B33475A20054E5000259FFB /* Frameworks */,
+				5B33475B20054E5000259FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B33475F20054E5000259FFB /* PBXTargetDependency */,
+			);
+			name = CrypierUITests;
+			productName = CrypierUITests;
+			productReference = 5B33475D20054E5000259FFB /* CrypierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B33473620054E5000259FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = batuhansaygili;
+				TargetAttributes = {
+					5B33473D20054E5000259FFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5B33475120054E5000259FFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B33473D20054E5000259FFB;
+					};
+					5B33475C20054E5000259FFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B33473D20054E5000259FFB;
+					};
+				};
+			};
+			buildConfigurationList = 5B33473920054E5000259FFB /* Build configuration list for PBXProject "Crypier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B33473520054E5000259FFB;
+			productRefGroup = 5B33473F20054E5000259FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B33473D20054E5000259FFB /* Crypier */,
+				5B33475120054E5000259FFB /* CrypierTests */,
+				5B33475C20054E5000259FFB /* CrypierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B33473C20054E5000259FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B33474C20054E5000259FFB /* LaunchScreen.storyboard in Resources */,
+				5B33474920054E5000259FFB /* Assets.xcassets in Resources */,
+				5B33474720054E5000259FFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33475020054E5000259FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33475B20054E5000259FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B33473A20054E5000259FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B33474420054E5000259FFB /* ViewController.swift in Sources */,
+				5B33474220054E5000259FFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33474E20054E5000259FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B33475720054E5000259FFB /* CrypierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B33475920054E5000259FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B33476220054E5000259FFB /* CrypierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B33475420054E5000259FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B33473D20054E5000259FFB /* Crypier */;
+			targetProxy = 5B33475320054E5000259FFB /* PBXContainerItemProxy */;
+		};
+		5B33475F20054E5000259FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B33473D20054E5000259FFB /* Crypier */;
+			targetProxy = 5B33475E20054E5000259FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B33474520054E5000259FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B33474620054E5000259FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B33474A20054E5000259FFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B33474B20054E5000259FFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B33476420054E5000259FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B33476520054E5000259FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B33476720054E5000259FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = Crypier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.Crypier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B33476820054E5000259FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = Crypier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.Crypier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B33476A20054E5000259FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = CrypierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CrypierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypier.app/Crypier";
+			};
+			name = Debug;
+		};
+		5B33476B20054E5000259FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = CrypierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CrypierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crypier.app/Crypier";
+			};
+			name = Release;
+		};
+		5B33476D20054E5000259FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = CrypierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CrypierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crypier;
+			};
+			name = Debug;
+		};
+		5B33476E20054E5000259FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				INFOPLIST_FILE = CrypierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.CrypierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crypier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B33473920054E5000259FFB /* Build configuration list for PBXProject "Crypier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B33476420054E5000259FFB /* Debug */,
+				5B33476520054E5000259FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B33476620054E5000259FFB /* Build configuration list for PBXNativeTarget "Crypier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B33476720054E5000259FFB /* Debug */,
+				5B33476820054E5000259FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B33476920054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B33476A20054E5000259FFB /* Debug */,
+				5B33476B20054E5000259FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B33476C20054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B33476D20054E5000259FFB /* Debug */,
+				5B33476E20054E5000259FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B33473620054E5000259FFB /* Project object */;
+}
