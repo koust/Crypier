@@ -1,0 +1,6 @@
+framework module Pods_Crypier {
+  umbrella header "Pods-Crypier-umbrella.h"
+
+  export *
+  module * { export * }
+}

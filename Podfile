@@ -13,13 +13,14 @@ target 'Crypier' do
 pod 'DefaultsKit'
 pod 'SwiftMessages'
 pod 'Firebase/Core'
-pod "CDAlertView"
 pod 'Firebase/AdMob'
 pod 'ScrollableGraphView'
 pod 'LLSpinner'
 pod 'Firebase/Messaging'
 pod 'SwiftyTimer'
 pod 'GoogleAnalytics'
+
+pod "CDAlertView"
  target 'CrypierTests' do
     inherit! :search_paths
     # Pods for testing
