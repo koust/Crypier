@@ -8,17 +8,23 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if Connectivity.isConnectedToInternet() {
+            DispatchQueue.main.async(execute: {
+                
+                self.performSegue(withIdentifier: "start", sender: self)
+                })
+        }else {
+            coinSearchVC.showAlert(text:  NSLocalizedString("connectionoff", comment: ""), theme: .error)
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 
 }

@@ -1,0 +1,72 @@
+
+/* Class = "UINavigationItem"; title = "Coin Arama"; ObjectID = "29e-Br-B2R"; */
+"29e-Br-B2R.title" = "Coin Arama";
+
+/* Class = "UISearchBar"; placeholder = "Arama Yap"; ObjectID = "3r2-hM-h6U"; */
+"3r2-hM-h6U.placeholder" = "Arama Yap";
+
+/* Class = "UILabel"; text = "$15600.0000"; ObjectID = "4Sw-Ch-9bi"; */
+"4Sw-Ch-9bi.text" = "$15600.0000";
+
+/* Class = "UILabel"; text = "LTC"; ObjectID = "4lt-0s-P6A"; */
+"4lt-0s-P6A.text" = "LTC";
+
+/* Class = "UITabBarItem"; title = "Ayarlar"; ObjectID = "AfS-yF-Gg1"; */
+"AfS-yF-Gg1.title" = "Ayarlar";
+
+/* Class = "UILabel"; text = "LTC"; ObjectID = "Btr-4M-PqV"; */
+"Btr-4M-PqV.text" = "LTC";
+
+/* Class = "UILabel"; text = "$15600.0000"; ObjectID = "C0O-Q1-8M6"; */
+"C0O-Q1-8M6.text" = "$15600.0000";
+
+/* Class = "UINavigationItem"; title = "Takip Listesi"; ObjectID = "DES-iw-fOf"; */
+"DES-iw-fOf.title" = "Takip Listesi";
+
+/* Class = "UILabel"; text = "Litecoin - LTC"; ObjectID = "JfT-gF-r8m"; */
+"JfT-gF-r8m.text" = "Litecoin - LTC";
+
+/* Class = "UILabel"; text = "%4.33"; ObjectID = "KpE-z8-4Oc"; */
+"KpE-z8-4Oc.text" = "%4.33";
+
+/* Class = "UILabel"; text = "Litecoin"; ObjectID = "MD8-Eo-y63"; */
+"MD8-Eo-y63.text" = "Litecoin";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "MDG-jn-n8r"; */
+"MDG-jn-n8r.title" = "Item";
+
+/* Class = "UILabel"; text = "%4.33"; ObjectID = "MTR-wr-F5M"; */
+"MTR-wr-F5M.text" = "%4.33";
+
+/* Class = "UILabel"; text = "1 BTC"; ObjectID = "Meh-9S-n1p"; */
+"Meh-9S-n1p.text" = "1 BTC";
+
+/* Class = "UILabel"; text = "Bitcoin - BTC"; ObjectID = "VdK-qu-clN"; */
+"VdK-qu-clN.text" = "Bitcoin - BTC";
+
+/* Class = "UINavigationItem"; title = "crypier"; ObjectID = "Yff-Ra-Lrq"; */
+"Yff-Ra-Lrq.title" = "crypier";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZEJ-kZ-wOb"; */
+"ZEJ-kZ-wOb.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Arama"; ObjectID = "gIn-B4-qjj"; */
+"gIn-B4-qjj.title" = "Arama";
+
+/* Class = "UINavigationItem"; title = "Crypier"; ObjectID = "kaV-Ia-SeZ"; */
+"kaV-Ia-SeZ.title" = "Crypier";
+
+/* Class = "UILabel"; text = "$2.150000"; ObjectID = "l0a-bH-1fV"; */
+"l0a-bH-1fV.text" = "$2.150000";
+
+/* Class = "UITabBarItem"; title = "Anasayfa"; ObjectID = "lkF-f7-ekx"; */
+"lkF-f7-ekx.title" = "Anasayfa";
+
+/* Class = "UILabel"; text = "$15600.0000"; ObjectID = "osR-fK-znJ"; */
+"osR-fK-znJ.text" = "$15600.0000";
+
+/* Class = "UILabel"; text = "Litecoin"; ObjectID = "sgh-Oy-8D4"; */
+"sgh-Oy-8D4.text" = "Litecoin";
+
+/* Class = "UILabel"; text = "Piyasa Değeri:"; ObjectID = "xeR-3y-a2k"; */
+"xeR-3y-a2k.text" = "Piyasa Değeri:";

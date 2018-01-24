@@ -1,0 +1,48 @@
+/*
+ TR.strings
+ Crypier
+ 
+ Created by Batuhan Saygılı on 16.01.2018.
+ Copyright © 2018 batuhansaygili. All rights reserved.
+ */
+
+
+"home" = "Anasayfa";
+"search" = "Arama";
+"searchPlace" = "Arama Yap(Örneğin: Bitcoin veya BTC)";
+"settings" = "Ayarlar";
+"followlist" = "Takip Listesi";
+"follow" = "Takip Et";
+"about" = "Hakkımızda";
+"notifi" = "Bildirimler";
+"sucessnotifi" = "Listenize eklendi.";
+"warningnotifi" = "Listenizde bulunmaktadır.";
+"errornotifi" = "Listenizden çıkarıldı.";
+"editnotifi" = "Başarıyla düzenlendi.";
+"coinname" = "Adı";
+"marketcap" = "Market Hacmi";
+"dollarprice" = "Dolar Fiyatı";
+"europrice" = "Euro Fiyatı";
+"bitcoinprice" = "Bitcoin Fiyatı";
+"etherumprice" = "Etherum Fiyatı";
+"cap24hrChange" = "24 Saatlik Değişim";
+"vwap_h24" = "24 Saatlik VWAP";
+"aboutContent" = "Crypier uygulaması günümüzdeki kripto paraların verilerini anlaşılır şekilde sizlere sunar. Herhangi bir şirkete bağlı değildir. Bilgilerin tamamı 3.parti uygulamalardan alınmaktadır. Uygulamanın amacı sadece sizlere anlaşılabilir bilgi sunmaktır ve bilgilerin doğruluğunu kontrol edememekteyiz.";
+"notifiContent" = "Eğer tarafımızdan bildirim almak isterseniz. Bildirimlerinizi açabilirsiniz.";
+"APIContent" = "Uygulamanın api kısmı tamamen open-source olarak coincap.io tarafından sağlanmaktadır.";
+"del" = "Sil";
+"enable" = "Aktif et";
+"done" = "Kapat";
+"connectionoff" = "İnternet bağlantınızı kontrol ediniz.";
+"wallet" = "Cüzdan";
+"edit" = "Düzenle";
+"awallet" = "Cüzdana Ekle";
+"awalletdesc" = "Cüzdanınızdaki miktarı giriniz";
+"awalletplace" = "Örneğin: 1 veya 0.00456";
+"alist" = "Listeye Ekle";
+"add" = "Ekle";
+"cancel" = "İptal";
+"addlistdesc" = "Takip listesinize veya cüzdananıza ekleyebilirsiniz.";
+"addlisttitle" = "Takip Listesi veya Cüzdan";
+"walletcontent" = "Cüzdan sadece paranızı hesaplamak için kullanılır ve sadece siz görebilirsiniz. Para transferi yapamazsınız. Her parabiriminin sayfasının içinden ekleyebilirsiniz.";
+"today" = "Bugün";

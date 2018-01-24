@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B12C9BA2011590300A49673 /* walletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9B92011590300A49673 /* walletVC.swift */; };
+		5B12C9BC2011599300A49673 /* walletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9BB2011599300A49673 /* walletCell.swift */; };
+		5B12C9BE2011685C00A49673 /* Kurlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9BD2011685C00A49673 /* Kurlar.swift */; };
+		5B12C9C020116DAC00A49673 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9BF20116DAC00A49673 /* String.swift */; };
+		5B2BE898200660C6003A6AB3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE895200660C5003A6AB3 /* Router.swift */; };
+		5B2BE899200660C6003A6AB3 /* RouterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE896200660C6003A6AB3 /* RouterUtility.swift */; };
+		5B2BE89A200660C6003A6AB3 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE897200660C6003A6AB3 /* Response.swift */; };
+		5B2BE89C200660FE003A6AB3 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89B200660FE003A6AB3 /* ErrorMessage.swift */; };
+		5B2BE89E20066300003A6AB3 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89D20066300003A6AB3 /* Coin.swift */; };
+		5B2BE8A020068662003A6AB3 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89F20068662003A6AB3 /* History.swift */; };
+		5B2BE8A22006A44E003A6AB3 /* HistoryPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE8A12006A44E003A6AB3 /* HistoryPrice.swift */; };
 		5B33474220054E5000259FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33474120054E5000259FFB /* AppDelegate.swift */; };
 		5B33474420054E5000259FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33474320054E5000259FFB /* ViewController.swift */; };
 		5B33474720054E5000259FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B33474520054E5000259FFB /* Main.storyboard */; };
@@ -14,6 +25,44 @@
 		5B33474C20054E5000259FFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B33474A20054E5000259FFB /* LaunchScreen.storyboard */; };
 		5B33475720054E5000259FFB /* CrypierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33475620054E5000259FFB /* CrypierTests.swift */; };
 		5B33476220054E5000259FFB /* CrypierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33476120054E5000259FFB /* CrypierUITests.swift */; };
+		5B3347752005574A00259FFB /* homeCoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3347742005574A00259FFB /* homeCoinCell.swift */; };
+		5B3347772005577B00259FFB /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3347762005577B00259FFB /* homeVC.swift */; };
+		5B3347792005633200259FFB /* coinProfilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3347782005633200259FFB /* coinProfilVC.swift */; };
+		5B33477B200568A200259FFB /* coinPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33477A200568A200259FFB /* coinPageCell.swift */; };
+		5B33477D20056A9000259FFB /* coinSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33477C20056A9000259FFB /* coinSearchVC.swift */; };
+		5B3EF1102017DCB40082B097 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3EF1112017DCB40082B097 /* SwiftyJSON.framework */; };
+		5B3EF1122017DCB80082B097 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3EF1132017DCB80082B097 /* Alamofire.framework */; };
+		5B3EF1162017E1480082B097 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD800802017D65D00389EE2 /* MainInterface.storyboard */; };
+		5B3EF1172017E2920082B097 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89B200660FE003A6AB3 /* ErrorMessage.swift */; };
+		5B3EF1182017E47C0082B097 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD8AA04200D6B2A00139C77 /* Localizable.strings */; };
+		5B3EF1192017E8140082B097 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9BF20116DAC00A49673 /* String.swift */; };
+		5BD8007C2017D65D00389EE2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD8007B2017D65D00389EE2 /* NotificationCenter.framework */; };
+		5BD8007F2017D65D00389EE2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8007E2017D65D00389EE2 /* TodayViewController.swift */; };
+		5BD800822017D65D00389EE2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD800802017D65D00389EE2 /* MainInterface.storyboard */; };
+		5BD800862017D65D00389EE2 /* todayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5BD8007A2017D65D00389EE2 /* todayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5BD8008B2017DA6C00389EE2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE897200660C6003A6AB3 /* Response.swift */; };
+		5BD8008C2017DA6C00389EE2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE895200660C5003A6AB3 /* Router.swift */; };
+		5BD8008D2017DA6C00389EE2 /* RouterUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE896200660C6003A6AB3 /* RouterUtility.swift */; };
+		5BD8008F2017DA8500389EE2 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89D20066300003A6AB3 /* Coin.swift */; };
+		5BD800902017DA8500389EE2 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE89F20068662003A6AB3 /* History.swift */; };
+		5BD800912017DA8500389EE2 /* HistoryPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2BE8A12006A44E003A6AB3 /* HistoryPrice.swift */; };
+		5BD800922017DA8500389EE2 /* CoinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9ED200AD3ED00139C77 /* CoinPage.swift */; };
+		5BD800932017DA8500389EE2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9FC200D612C00139C77 /* Connectivity.swift */; };
+		5BD800942017DA8500389EE2 /* Kurlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12C9BD2011685C00A49673 /* Kurlar.swift */; };
+		5BD8A9EE200AD3ED00139C77 /* CoinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9ED200AD3ED00139C77 /* CoinPage.swift */; };
+		5BD8A9F0200AE40F00139C77 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9EF200AE40F00139C77 /* Date.swift */; };
+		5BD8A9F2200C0D2800139C77 /* followPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9F1200C0D2800139C77 /* followPageVC.swift */; };
+		5BD8A9F4200CB78700139C77 /* searchPageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9F3200CB78700139C77 /* searchPageCell.swift */; };
+		5BD8A9F6200D11F200139C77 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9F5200D11F200139C77 /* settingsVC.swift */; };
+		5BD8A9F8200D127E00139C77 /* settingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9F7200D127E00139C77 /* settingsCell.swift */; };
+		5BD8A9FD200D612C00139C77 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD8A9FC200D612C00139C77 /* Connectivity.swift */; };
+		5BD8AA02200D6B2A00139C77 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BD8AA04200D6B2A00139C77 /* Localizable.strings */; };
+		5BD8AA09200EA09000139C77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BD8AA08200EA09000139C77 /* GoogleService-Info.plist */; };
+		B0EF66B716D6E05B26F2E21C /* Pods_CrypierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7D00457323C3A7C42A0825 /* Pods_CrypierTests.framework */; };
+		B9CF66E1A7A7663CA7573748 /* Pods_todayWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6CC633A5AC4F628B1244C9 /* Pods_todayWidget.framework */; };
+		C0B6262BFBB7B6FB3D88EDAD /* Pods_CrypierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E2E36A4BEAC58EF600D1D1 /* Pods_CrypierUITests.framework */; };
+		C26CD946829925C6F0203A39 /* Pods_Crypier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A1E5087D09363EDAC64E75 /* Pods_Crypier.framework */; };
+		D63FA7F173526CB153292A66 /* Pods_Crypier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3EF1152017DD700082B097 /* Pods_Crypier.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +80,44 @@
 			remoteGlobalIDString = 5B33473D20054E5000259FFB;
 			remoteInfo = Crypier;
 		};
+		5BD800842017D65D00389EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B33473620054E5000259FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BD800792017D65D00389EE2;
+			remoteInfo = todayWidget;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5BD8008A2017D65D00389EE2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5BD800862017D65D00389EE2 /* todayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		48E2E36A4BEAC58EF600D1D1 /* Pods_CrypierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrypierUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5338C61119D0C884B3D047B4 /* Pods-Crypier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypier/Pods-Crypier.debug.xcconfig"; sourceTree = "<group>"; };
+		5B12C9B92011590300A49673 /* walletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletVC.swift; sourceTree = "<group>"; };
+		5B12C9BB2011599300A49673 /* walletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walletCell.swift; sourceTree = "<group>"; };
+		5B12C9BD2011685C00A49673 /* Kurlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kurlar.swift; sourceTree = "<group>"; };
+		5B12C9BF20116DAC00A49673 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5B1B5D6920136C7700C93214 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		5B2BE895200660C5003A6AB3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5B2BE896200660C6003A6AB3 /* RouterUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterUtility.swift; sourceTree = "<group>"; };
+		5B2BE897200660C6003A6AB3 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		5B2BE89B200660FE003A6AB3 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		5B2BE89D20066300003A6AB3 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		5B2BE89F20068662003A6AB3 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		5B2BE8A12006A44E003A6AB3 /* HistoryPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPrice.swift; sourceTree = "<group>"; };
 		5B33473E20054E5000259FFB /* Crypier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B33474120054E5000259FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B33474320054E5000259FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +131,43 @@
 		5B33475D20054E5000259FFB /* CrypierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrypierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B33476120054E5000259FFB /* CrypierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypierUITests.swift; sourceTree = "<group>"; };
 		5B33476320054E5000259FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3347742005574A00259FFB /* homeCoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCoinCell.swift; sourceTree = "<group>"; };
+		5B3347762005577B00259FFB /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		5B3347782005633200259FFB /* coinProfilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinProfilVC.swift; sourceTree = "<group>"; };
+		5B33477A200568A200259FFB /* coinPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinPageCell.swift; sourceTree = "<group>"; };
+		5B33477C20056A9000259FFB /* coinSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coinSearchVC.swift; sourceTree = "<group>"; };
+		5B3EF1112017DCB40082B097 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3EF1132017DCB80082B097 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3EF1152017DD700082B097 /* Pods_Crypier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Crypier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD2E216ADC6021E014251F0 /* Pods-CrypierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrypierTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrypierTests/Pods-CrypierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD8007A2017D65D00389EE2 /* todayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = todayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD8007B2017D65D00389EE2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		5BD8007E2017D65D00389EE2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		5BD800812017D65D00389EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5BD800832017D65D00389EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BD8A9ED200AD3ED00139C77 /* CoinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinPage.swift; sourceTree = "<group>"; };
+		5BD8A9EF200AE40F00139C77 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		5BD8A9F1200C0D2800139C77 /* followPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followPageVC.swift; sourceTree = "<group>"; };
+		5BD8A9F3200CB78700139C77 /* searchPageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPageCell.swift; sourceTree = "<group>"; };
+		5BD8A9F5200D11F200139C77 /* settingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		5BD8A9F7200D127E00139C77 /* settingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsCell.swift; sourceTree = "<group>"; };
+		5BD8A9F9200D5B1600139C77 /* Crypier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crypier.entitlements; sourceTree = "<group>"; };
+		5BD8A9FC200D612C00139C77 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		5BD8A9FE200D6B0000139C77 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		5BD8A9FF200D6B0100139C77 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5BD8AA05200D6E4E00139C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5BD8AA06200D6EAB00139C77 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5BD8AA07200D6EBD00139C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5BD8AA08200EA09000139C77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B63669DB1F04EEEEF9AEBE4 /* Pods-CrypierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrypierTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrypierTests/Pods-CrypierTests.release.xcconfig"; sourceTree = "<group>"; };
+		8697EFB2AFDA034503355F9E /* Pods-todayWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todayWidget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-todayWidget/Pods-todayWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		8E6CC633A5AC4F628B1244C9 /* Pods_todayWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todayWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7D00457323C3A7C42A0825 /* Pods_CrypierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrypierTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A1E5087D09363EDAC64E75 /* Pods_Crypier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D3728894BA2DC23AFCE4E5 /* Pods-CrypierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrypierUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrypierUITests/Pods-CrypierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA024A92E25C2207D0669397 /* Pods-Crypier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypier/Pods-Crypier.release.xcconfig"; sourceTree = "<group>"; };
+		F2E2CC84F2B187F50606EBBF /* Pods-CrypierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrypierUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrypierUITests/Pods-CrypierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FABCE514CD9313D8ED29C3FF /* Pods-todayWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todayWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-todayWidget/Pods-todayWidget.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26CD946829925C6F0203A39 /* Pods_Crypier.framework in Frameworks */,
+				D63FA7F173526CB153292A66 /* Pods_Crypier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EF66B716D6E05B26F2E21C /* Pods_CrypierTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +192,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0B6262BFBB7B6FB3D88EDAD /* Pods_CrypierUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BD800772017D65D00389EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3EF1122017DCB80082B097 /* Alamofire.framework in Frameworks */,
+				5B3EF1102017DCB40082B097 /* SwiftyJSON.framework in Frameworks */,
+				5BD8007C2017D65D00389EE2 /* NotificationCenter.framework in Frameworks */,
+				B9CF66E1A7A7663CA7573748 /* Pods_todayWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		015264E586E1E8BFBE3688D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B3EF1152017DD700082B097 /* Pods_Crypier.framework */,
+				5B3EF1132017DCB80082B097 /* Alamofire.framework */,
+				5B3EF1112017DCB40082B097 /* SwiftyJSON.framework */,
+				B0A1E5087D09363EDAC64E75 /* Pods_Crypier.framework */,
+				AA7D00457323C3A7C42A0825 /* Pods_CrypierTests.framework */,
+				48E2E36A4BEAC58EF600D1D1 /* Pods_CrypierUITests.framework */,
+				5BD8007B2017D65D00389EE2 /* NotificationCenter.framework */,
+				8E6CC633A5AC4F628B1244C9 /* Pods_todayWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B33473520054E5000259FFB = {
 			isa = PBXGroup;
 			children = (
+				5B1B5D6920136C7700C93214 /* BridgingHeader.h */,
 				5B33474020054E5000259FFB /* Crypier */,
 				5B33475520054E5000259FFB /* CrypierTests */,
 				5B33476020054E5000259FFB /* CrypierUITests */,
+				5BD8007D2017D65D00389EE2 /* todayWidget */,
 				5B33473F20054E5000259FFB /* Products */,
+				BAD6B069F3CFCE7D12BDCD38 /* Pods */,
+				015264E586E1E8BFBE3688D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +245,7 @@
 				5B33473E20054E5000259FFB /* Crypier.app */,
 				5B33475220054E5000259FFB /* CrypierTests.xctest */,
 				5B33475D20054E5000259FFB /* CrypierUITests.xctest */,
+				5BD8007A2017D65D00389EE2 /* todayWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +253,20 @@
 		5B33474020054E5000259FFB /* Crypier */ = {
 			isa = PBXGroup;
 			children = (
+				5BD8A9F9200D5B1600139C77 /* Crypier.entitlements */,
+				5B334773200556FE00259FFB /* Cell */,
+				5B33477220054E7300259FFB /* Help */,
+				5B33477120054E6E00259FFB /* Router */,
+				5B33477020054E6A00259FFB /* Model */,
+				5B33476F20054E6000259FFB /* VC */,
 				5B33474120054E5000259FFB /* AppDelegate.swift */,
 				5B33474320054E5000259FFB /* ViewController.swift */,
 				5B33474520054E5000259FFB /* Main.storyboard */,
 				5B33474820054E5000259FFB /* Assets.xcassets */,
 				5B33474A20054E5000259FFB /* LaunchScreen.storyboard */,
 				5B33474D20054E5000259FFB /* Info.plist */,
+				5BD8AA04200D6B2A00139C77 /* Localizable.strings */,
+				5BD8AA08200EA09000139C77 /* GoogleService-Info.plist */,
 			);
 			path = Crypier;
 			sourceTree = "<group>";
@@ -125,6 +289,89 @@
 			path = CrypierUITests;
 			sourceTree = "<group>";
 		};
+		5B33476F20054E6000259FFB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5B3347762005577B00259FFB /* homeVC.swift */,
+				5B3347782005633200259FFB /* coinProfilVC.swift */,
+				5B33477C20056A9000259FFB /* coinSearchVC.swift */,
+				5BD8A9F1200C0D2800139C77 /* followPageVC.swift */,
+				5BD8A9F5200D11F200139C77 /* settingsVC.swift */,
+				5B12C9B92011590300A49673 /* walletVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5B33477020054E6A00259FFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B2BE89B200660FE003A6AB3 /* ErrorMessage.swift */,
+				5B2BE89D20066300003A6AB3 /* Coin.swift */,
+				5B2BE89F20068662003A6AB3 /* History.swift */,
+				5B2BE8A12006A44E003A6AB3 /* HistoryPrice.swift */,
+				5BD8A9ED200AD3ED00139C77 /* CoinPage.swift */,
+				5BD8A9FC200D612C00139C77 /* Connectivity.swift */,
+				5B12C9BD2011685C00A49673 /* Kurlar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B33477120054E6E00259FFB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5B2BE897200660C6003A6AB3 /* Response.swift */,
+				5B2BE895200660C5003A6AB3 /* Router.swift */,
+				5B2BE896200660C6003A6AB3 /* RouterUtility.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5B33477220054E7300259FFB /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				5BD8A9EF200AE40F00139C77 /* Date.swift */,
+				5B12C9BF20116DAC00A49673 /* String.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		5B334773200556FE00259FFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B3347742005574A00259FFB /* homeCoinCell.swift */,
+				5B33477A200568A200259FFB /* coinPageCell.swift */,
+				5BD8A9F3200CB78700139C77 /* searchPageCell.swift */,
+				5BD8A9F7200D127E00139C77 /* settingsCell.swift */,
+				5B12C9BB2011599300A49673 /* walletCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5BD8007D2017D65D00389EE2 /* todayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5BD8007E2017D65D00389EE2 /* TodayViewController.swift */,
+				5BD800802017D65D00389EE2 /* MainInterface.storyboard */,
+				5BD800832017D65D00389EE2 /* Info.plist */,
+			);
+			path = todayWidget;
+			sourceTree = "<group>";
+		};
+		BAD6B069F3CFCE7D12BDCD38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5338C61119D0C884B3D047B4 /* Pods-Crypier.debug.xcconfig */,
+				BA024A92E25C2207D0669397 /* Pods-Crypier.release.xcconfig */,
+				5BD2E216ADC6021E014251F0 /* Pods-CrypierTests.debug.xcconfig */,
+				6B63669DB1F04EEEEF9AEBE4 /* Pods-CrypierTests.release.xcconfig */,
+				F2E2CC84F2B187F50606EBBF /* Pods-CrypierUITests.debug.xcconfig */,
+				B5D3728894BA2DC23AFCE4E5 /* Pods-CrypierUITests.release.xcconfig */,
+				8697EFB2AFDA034503355F9E /* Pods-todayWidget.debug.xcconfig */,
+				FABCE514CD9313D8ED29C3FF /* Pods-todayWidget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +379,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B33476620054E5000259FFB /* Build configuration list for PBXNativeTarget "Crypier" */;
 			buildPhases = (
+				6B012DFDBBF40B9489404CD3 /* [CP] Check Pods Manifest.lock */,
 				5B33473A20054E5000259FFB /* Sources */,
 				5B33473B20054E5000259FFB /* Frameworks */,
 				5B33473C20054E5000259FFB /* Resources */,
+				5454399F5BA65826F993D54C /* [CP] Embed Pods Frameworks */,
+				08F87938851AA5322DB3F33E /* [CP] Copy Pods Resources */,
+				5BD8008A2017D65D00389EE2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5BD800852017D65D00389EE2 /* PBXTargetDependency */,
 			);
 			name = Crypier;
 			productName = Crypier;
@@ -149,9 +401,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B33476920054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierTests" */;
 			buildPhases = (
+				0E1650156822CC7F405A20AD /* [CP] Check Pods Manifest.lock */,
 				5B33474E20054E5000259FFB /* Sources */,
 				5B33474F20054E5000259FFB /* Frameworks */,
 				5B33475020054E5000259FFB /* Resources */,
+				5424166C52EFB5E242B3B18F /* [CP] Embed Pods Frameworks */,
+				1832A6DE96640C83EFCA268C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B33476C20054E5000259FFB /* Build configuration list for PBXNativeTarget "CrypierUITests" */;
 			buildPhases = (
+				989A3A592BF31178EF2E65C3 /* [CP] Check Pods Manifest.lock */,
 				5B33475920054E5000259FFB /* Sources */,
 				5B33475A20054E5000259FFB /* Frameworks */,
 				5B33475B20054E5000259FFB /* Resources */,
+				CD3C89CBC91C75E0796F3DE3 /* [CP] Embed Pods Frameworks */,
+				2A4E3BE385A4FBF0A5479A5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +438,25 @@
 			productName = CrypierUITests;
 			productReference = 5B33475D20054E5000259FFB /* CrypierUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5BD800792017D65D00389EE2 /* todayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD800892017D65D00389EE2 /* Build configuration list for PBXNativeTarget "todayWidget" */;
+			buildPhases = (
+				714B11F0DF568340505D305F /* [CP] Check Pods Manifest.lock */,
+				5BD800762017D65D00389EE2 /* Sources */,
+				5BD800772017D65D00389EE2 /* Frameworks */,
+				5BD800782017D65D00389EE2 /* Resources */,
+				36EAD654961C1FF7A92A686D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todayWidget;
+			productName = todayWidget;
+			productReference = 5BD8007A2017D65D00389EE2 /* todayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -194,6 +471,11 @@
 					5B33473D20054E5000259FFB = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					5B33475120054E5000259FFB = {
 						CreatedOnToolsVersion = 9.1;
@@ -204,6 +486,10 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5B33473D20054E5000259FFB;
+					};
+					5BD800792017D65D00389EE2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -223,6 +509,7 @@
 				5B33473D20054E5000259FFB /* Crypier */,
 				5B33475120054E5000259FFB /* CrypierTests */,
 				5B33475C20054E5000259FFB /* CrypierUITests */,
+				5BD800792017D65D00389EE2 /* todayWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +520,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B33474C20054E5000259FFB /* LaunchScreen.storyboard in Resources */,
+				5B3EF1162017E1480082B097 /* MainInterface.storyboard in Resources */,
+				5BD8AA02200D6B2A00139C77 /* Localizable.strings in Resources */,
 				5B33474920054E5000259FFB /* Assets.xcassets in Resources */,
+				5BD8AA09200EA09000139C77 /* GoogleService-Info.plist in Resources */,
 				5B33474720054E5000259FFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,15 +542,215 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BD800782017D65D00389EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3EF1182017E47C0082B097 /* Localizable.strings in Resources */,
+				5BD800822017D65D00389EE2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F87938851AA5322DB3F33E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypier/Pods-Crypier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E1650156822CC7F405A20AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1832A6DE96640C83EFCA268C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrypierTests/Pods-CrypierTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4E3BE385A4FBF0A5479A5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrypierUITests/Pods-CrypierUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36EAD654961C1FF7A92A686D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-todayWidget/Pods-todayWidget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5424166C52EFB5E242B3B18F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrypierTests/Pods-CrypierTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5454399F5BA65826F993D54C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypier/Pods-Crypier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B012DFDBBF40B9489404CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		714B11F0DF568340505D305F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		989A3A592BF31178EF2E65C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3C89CBC91C75E0796F3DE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrypierUITests/Pods-CrypierUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B33473A20054E5000259FFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD8A9F6200D11F200139C77 /* settingsVC.swift in Sources */,
+				5B12C9BA2011590300A49673 /* walletVC.swift in Sources */,
+				5B2BE898200660C6003A6AB3 /* Router.swift in Sources */,
 				5B33474420054E5000259FFB /* ViewController.swift in Sources */,
+				5BD8A9F4200CB78700139C77 /* searchPageCell.swift in Sources */,
+				5B2BE89C200660FE003A6AB3 /* ErrorMessage.swift in Sources */,
+				5BD8A9F0200AE40F00139C77 /* Date.swift in Sources */,
+				5B3347772005577B00259FFB /* homeVC.swift in Sources */,
+				5B12C9BE2011685C00A49673 /* Kurlar.swift in Sources */,
+				5B2BE8A22006A44E003A6AB3 /* HistoryPrice.swift in Sources */,
+				5B3347792005633200259FFB /* coinProfilVC.swift in Sources */,
+				5B2BE89A200660C6003A6AB3 /* Response.swift in Sources */,
+				5BD8A9EE200AD3ED00139C77 /* CoinPage.swift in Sources */,
+				5BD8A9FD200D612C00139C77 /* Connectivity.swift in Sources */,
+				5B2BE89E20066300003A6AB3 /* Coin.swift in Sources */,
+				5B3347752005574A00259FFB /* homeCoinCell.swift in Sources */,
+				5B33477D20056A9000259FFB /* coinSearchVC.swift in Sources */,
+				5B12C9C020116DAC00A49673 /* String.swift in Sources */,
+				5BD8A9F8200D127E00139C77 /* settingsCell.swift in Sources */,
+				5B12C9BC2011599300A49673 /* walletCell.swift in Sources */,
+				5B2BE899200660C6003A6AB3 /* RouterUtility.swift in Sources */,
+				5B2BE8A020068662003A6AB3 /* History.swift in Sources */,
 				5B33474220054E5000259FFB /* AppDelegate.swift in Sources */,
+				5BD8A9F2200C0D2800139C77 /* followPageVC.swift in Sources */,
+				5B33477B200568A200259FFB /* coinPageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +770,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BD800762017D65D00389EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3EF1192017E8140082B097 /* String.swift in Sources */,
+				5B3EF1172017E2920082B097 /* ErrorMessage.swift in Sources */,
+				5BD8008F2017DA8500389EE2 /* Coin.swift in Sources */,
+				5BD800902017DA8500389EE2 /* History.swift in Sources */,
+				5BD800912017DA8500389EE2 /* HistoryPrice.swift in Sources */,
+				5BD800922017DA8500389EE2 /* CoinPage.swift in Sources */,
+				5BD800932017DA8500389EE2 /* Connectivity.swift in Sources */,
+				5BD800942017DA8500389EE2 /* Kurlar.swift in Sources */,
+				5BD8008B2017DA6C00389EE2 /* Response.swift in Sources */,
+				5BD8008C2017DA6C00389EE2 /* Router.swift in Sources */,
+				5BD8008D2017DA6C00389EE2 /* RouterUtility.swift in Sources */,
+				5BD8007F2017D65D00389EE2 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +802,11 @@
 			target = 5B33473D20054E5000259FFB /* Crypier */;
 			targetProxy = 5B33475E20054E5000259FFB /* PBXContainerItemProxy */;
 		};
+		5BD800852017D65D00389EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BD800792017D65D00389EE2 /* todayWidget */;
+			targetProxy = 5BD800842017D65D00389EE2 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -300,6 +814,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B33474620054E5000259FFB /* Base */,
+				5BD8A9FE200D6B0000139C77 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -308,8 +823,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				5B33474B20054E5000259FFB /* Base */,
+				5BD8A9FF200D6B0100139C77 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD800802017D65D00389EE2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD800812017D65D00389EE2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		5BD8AA04200D6B2A00139C77 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BD8AA05200D6E4E00139C77 /* Base */,
+				5BD8AA06200D6EAB00139C77 /* tr */,
+				5BD8AA07200D6EBD00139C77 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -318,7 +852,9 @@
 		5B33476420054E5000259FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -347,6 +883,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -375,7 +912,9 @@
 		5B33476520054E5000259FFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -404,6 +943,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -424,36 +964,51 @@
 		};
 		5B33476720054E5000259FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5338C61119D0C884B3D047B4 /* Pods-Crypier.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Crypier/Crypier.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SREC8ZH83;
 				INFOPLIST_FILE = Crypier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.Crypier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoin.Crypier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5B33476820054E5000259FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA024A92E25C2207D0669397 /* Pods-Crypier.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Crypier/Crypier.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SREC8ZH83;
 				INFOPLIST_FILE = Crypier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.crypto.Crypier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoin.Crypier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5B33476A20054E5000259FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD2E216ADC6021E014251F0 /* Pods-CrypierTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +1026,7 @@
 		};
 		5B33476B20054E5000259FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B63669DB1F04EEEEF9AEBE4 /* Pods-CrypierTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +1044,7 @@
 		};
 		5B33476D20054E5000259FFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E2CC84F2B187F50606EBBF /* Pods-CrypierUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +1061,7 @@
 		};
 		5B33476E20054E5000259FFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D3728894BA2DC23AFCE4E5 /* Pods-CrypierUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +1073,44 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Crypier;
+			};
+			name = Release;
+		};
+		5BD800872017D65D00389EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8697EFB2AFDA034503355F9E /* Pods-todayWidget.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = todayWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoin.Crypier.todayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BD800882017D65D00389EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABCE514CD9313D8ED29C3FF /* Pods-todayWidget.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4SREC8ZH83;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				INFOPLIST_FILE = todayWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cryptocoin.Crypier.todayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -553,6 +1149,15 @@
 			buildConfigurations = (
 				5B33476D20054E5000259FFB /* Debug */,
 				5B33476E20054E5000259FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD800892017D65D00389EE2 /* Build configuration list for PBXNativeTarget "todayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD800872017D65D00389EE2 /* Debug */,
+				5BD800882017D65D00389EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
