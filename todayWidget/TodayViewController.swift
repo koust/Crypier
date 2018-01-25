@@ -19,7 +19,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if !Connectivity.isConnectedToInternet() {
+            
+            self.wTitle.text = NSLocalizedString("connectionoff", comment: "")
+            self.wPrice.text = ""
+            self.wPerc.text = ""
+            
+            return
+        }
         RouterUtility.shared.coinPage(coin: "BTC", callback: {response in
             
             if !response.hasError {
