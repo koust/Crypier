@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FirebaseApp.configure()
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-1076059588864028~8869427703")
+        GADMobileAds.configure(withApplicationID: "")
         Messaging.messaging().delegate = self
         if #available(iOS 10.0, *) {
             // For iOS 10 display notification (sent via APNS)
